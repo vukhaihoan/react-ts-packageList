@@ -2,8 +2,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap);
 
 :root {
-  --dark: #101315;
+  /* --dark: #101315; */
   --light: #eeeeee;
+  --dark: #fff;
   --gradient: linear-gradient(10deg, #ffaa00, #ff6a00);
   --gradient2: linear-gradient(15deg, #04ea00, #00d17d);
   --gradient3: linear-gradient(15deg, #b648ff, #ef5dff);
@@ -15,7 +16,7 @@
 }
 
 body {
-  background: var(--dark);
+  background: var(--light);
   font-family: "Montserrat", sans-serif;
   height: 100%;
 }
