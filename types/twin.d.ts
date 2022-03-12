@@ -1,6 +1,7 @@
 // types/twin.d.ts
 import "twin.macro";
 import styledImport, { CSSProp, css as cssImport } from "styled-components";
+import { ExoticComponent } from "react";
 
 declare module "twin.macro" {
   // The styled and css imports
@@ -23,7 +24,7 @@ declare module "react" {
 declare global {
   namespace JSX {
     interface IntrinsicAttributes<T> extends DOMAttributes<T> {
-      as?: string | Element;
+      as?: string | Element | ExoticComponent;
     }
   }
 }
